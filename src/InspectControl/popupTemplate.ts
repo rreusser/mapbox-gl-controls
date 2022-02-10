@@ -1,7 +1,7 @@
 import { MapboxGeoJSONFeature } from 'mapbox-gl';
 import { GeoJsonProperties } from 'geojson';
-import iconLeft from '../icons/left';
-import iconRight from '../icons/right';
+import iconLeft from '../icons/left.js';
+import iconRight from '../icons/right.js';
 
 enum Direction {
   Next = 'next',

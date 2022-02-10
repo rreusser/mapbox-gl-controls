@@ -2,12 +2,12 @@ import mapboxgl, { GeoJSONSource, Marker } from 'mapbox-gl';
 import { Position } from 'geojson';
 import distance from '@turf/distance';
 import { Units } from '@turf/helpers';
-import Base from '../Base/Base';
-import Button from '../Button/Button';
-import labelFormat from './labelFormat';
-import lineStringFeature from './lineStringFeature';
-import pointFeatureCollection from './pointFeatureCollection';
-import iconRuler from '../icons/ruler';
+import Base from '../Base/Base.js';
+import Button from '../Button/Button.js';
+import labelFormat from './labelFormat.js';
+import lineStringFeature from './lineStringFeature.js';
+import pointFeatureCollection from './pointFeatureCollection.js';
+import iconRuler from '../icons/ruler.js';
 
 const LAYER_LINE = 'controls-layer-line';
 const LAYER_SYMBOL = 'controls-layer-symbol';

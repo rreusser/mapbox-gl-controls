@@ -1,5 +1,5 @@
 import { Map } from 'mapbox-gl';
-import Button from '../Button/Button';
+import Button from '../Button/Button.js';
 
 class Base {
   node: HTMLDivElement;

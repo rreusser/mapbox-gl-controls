@@ -1,6 +1,6 @@
-import Base from '../Base/Base';
-import Button from '../Button/Button';
-import { StyleOption } from './types';
+import Base from '../Base/Base.js';
+import Button from '../Button/Button.js';
+import { StyleOption } from './types.js';
 
 interface StylesControlOptions {
   /** Array of style options */

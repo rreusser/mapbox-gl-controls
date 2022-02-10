@@ -1,8 +1,8 @@
 import { LngLat, MapboxGeoJSONFeature, MapMouseEvent, PointLike } from 'mapbox-gl';
-import Base from '../Base/Base';
-import Button from '../Button/Button';
-import popupTemplate from './popupTemplate';
-import iconInspect from '../icons/inspect';
+import Base from '../Base/Base.js';
+import Button from '../Button/Button.js';
+import popupTemplate from './popupTemplate.js';
+import iconInspect from '../icons/inspect.js';
 
 interface InspectControlOptions {
   /** Log inspected features to console */

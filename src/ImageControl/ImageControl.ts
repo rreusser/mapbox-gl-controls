@@ -1,11 +1,11 @@
 import { GeoJSONSource, ImageSource, LngLat, MapMouseEvent } from 'mapbox-gl';
-import Base from '../Base/Base';
-import Button from '../Button/Button';
-import iconImage from '../icons/image';
-import IImage from './IImage';
-import { EditMode, ImagePosition } from './types';
-import moveable from './moveable';
-import resizeable from './resizeable';
+import Base from '../Base/Base.js';
+import Button from '../Button/Button.js';
+import iconImage from '../icons/image.js';
+import IImage from './IImage.js';
+import { EditMode, ImagePosition } from './types.js';
+import moveable from './moveable.js';
+import resizeable from './resizeable.js';
 
 export default class ImageControl extends Base {
   button: Button

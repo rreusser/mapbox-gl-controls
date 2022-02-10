@@ -32,6 +32,8 @@
   },
   "homepage": "https://korywka.github.io/mapbox-gl-controls/",
   "repository": "korywka/mapbox-gl-controls",
-  "keywords": ["mapbox"],
+  "keywords": [
+    "mapbox"
+  ],
   "license": "MIT"
 }

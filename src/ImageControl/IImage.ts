@@ -1,6 +1,6 @@
 import { FillLayer, GeoJSONSourceRaw, ImageSourceRaw, Map, RasterLayer } from 'mapbox-gl';
 import { FeatureCollection } from 'geojson';
-import { ImagePosition } from './types';
+import { ImagePosition } from './types.js';
 
 class IImage {
   id: string

@@ -1,7 +1,7 @@
 import { LngLat, Map, MapLayerMouseEvent, MapMouseEvent } from 'mapbox-gl';
-import { contourLayer, cornersLayer } from './layers';
-import { ImagePosition, Visibility, Cursor } from './types';
-import IImage from './IImage';
+import { contourLayer, cornersLayer } from './layers.js';
+import { ImagePosition, Visibility, Cursor } from './types.js';
+import IImage from './IImage.js';
 
 type P = [number, number];
 

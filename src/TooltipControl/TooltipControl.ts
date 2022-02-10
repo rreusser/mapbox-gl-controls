@@ -1,5 +1,5 @@
 import { LngLat, MapLayerEventType, MapMouseEvent } from 'mapbox-gl';
-import Base from '../Base/Base';
+import Base from '../Base/Base.js';
 
 interface TooltipControlOptions {
   /** Triggered each time mouse moved over `layer` option. */

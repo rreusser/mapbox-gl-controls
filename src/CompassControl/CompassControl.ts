@@ -1,6 +1,6 @@
-import iconPointer from '../icons/pointer';
-import Base from '../Base/Base';
-import Button from '../Button/Button';
+import iconPointer from '../icons/pointer.js';
+import Base from '../Base/Base.js';
+import Button from '../Button/Button.js';
 
 interface CompassControlOptions {
   /** Show compass if bearing is 0 */

@@ -1,7 +1,7 @@
-import Base from '../Base/Base';
-import Button from '../Button/Button';
-import iconPlus from '../icons/plus';
-import iconMinus from '../icons/minus';
+import Base from '../Base/Base.js';
+import Button from '../Button/Button.js';
+import iconPlus from '../icons/plus.js';
+import iconMinus from '../icons/minus.js';
 
 export default class ZoomControl extends Base {
   zoomIn: Button

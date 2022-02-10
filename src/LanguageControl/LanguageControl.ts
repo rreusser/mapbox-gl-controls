@@ -1,6 +1,6 @@
-import getLanguageField from './getLanguageField';
-import localizeTextField from './localizeTextField';
-import Base from '../Base/Base';
+import getLanguageField from './getLanguageField.js';
+import localizeTextField from './localizeTextField.js';
+import Base from '../Base/Base.js';
 
 const SUPPORTED_LANGUAGES = ['en', 'es', 'fr', 'de', 'ru', 'zh', 'pt', 'ar', 'ja', 'ko', 'mul'];
 

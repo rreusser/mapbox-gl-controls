@@ -1,7 +1,7 @@
 import mapboxgl, { LngLat, Map, MapLayerMouseEvent, MapMouseEvent } from 'mapbox-gl';
-import { Cursor, ImagePosition, Visibility } from './types';
-import { contourLayer, shadowLayer } from './layers';
-import IImage from './IImage';
+import { Cursor, ImagePosition, Visibility } from './types.js';
+import { contourLayer, shadowLayer } from './layers.js';
+import IImage from './IImage.js';
 
 interface Options {
   map: Map
